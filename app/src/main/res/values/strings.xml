@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string-array name="blood_types">
+        <item>Your Blood type is:</item>
+        <item>+A</item>
+        <item>-A</item>
+        <item>+B</item>
+        <item>-B</item>
+        <item>+AB</item>
+        <item>-AB</item>
+        <item>+O</item>
+        <item>-O</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Your county is:</item>
+        <item>Cairo</item>
+        <item>Alex</item>
+        <item>Fayoum</item>
+        <item>Menia</item>
+        <item>Luxor</item>
+        <item>Aswan</item>
+        <item>Hurghada</item>
+    </string-array>
+
+</resources>

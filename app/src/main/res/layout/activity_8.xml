@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2FA69B"
+    tools:context=".Activity8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="658dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                app:srcCompat="@drawable/a4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Review Requests"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Manage Stock"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Manage Donor"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Manage Requesters"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Organize Donation events"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#9C1414"
+                android:text="Manage Organization Account"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

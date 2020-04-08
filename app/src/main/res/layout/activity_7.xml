@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2FA69B"
+    tools:context=".Activity7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="        Requisterr Sign up"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="644dp">
+
+            <LinearLayout
+                android:layout_width="405dp"
+                android:layout_height="600dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="84dp"
+                android:orientation="vertical"
+                android:padding="40dp"
+                android:paddingLeft="40dp"
+                android:paddingTop="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="#FFFFFF"
+                        android:enabled="true"
+                        android:hint="   Enter your Name!"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText11"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:enabled="true"
+                        android:hint="   Enter your account Name!"
+                        android:inputType="textEmailAddress"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText9"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:hint="   Enter your Password!"
+                        android:inputType="textPassword"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText7"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:hint="   Enter Your Number!"
+                        android:inputType="phone"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <Spinner
+                        android:id="@+id/spinner3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:layout_gravity="center|top"
+                        android:background="#FFFFFF"
+                        android:entries="@array/countries" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="104dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:background="#9C1414"
+                        android:gravity="center"
+                        android:text="Create" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</RelativeLayout>
